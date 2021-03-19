@@ -22,11 +22,11 @@ PORI is compiled/executed between open-tag **eläks_viel** and closing-tag **koi
     
 # Basic output functions
 
-## Sössötä <"text" or variable>
+## Sössötä *"text" or variable*
 
 Prints directly out text to console (stdout) surrounded by double-quotes (") or if no double-quotes defined, assumes variable is being used. If you want to declare variable inside the double-quotes, you can add *%variable%* into the text.
 
-## Mäikätä <"text" or variable>
+## Mäikätä *"text" or variable*
 
 Otherwise similar operation to **sössötä** but outputs text as all-caps.
 
@@ -43,13 +43,13 @@ This program should output should be following:
 
 # Variable decleration
 
-## tos_o <variable_name>
+## tos_o *variable_name*
     
 Defines *variable_name* named variable. Can be used both as a numeral and string variables.
 
 # Basic input functions
 
-## Kuulustel <variablename>
+## Kuulustel *variablename*
 *alias: kuulostel*
 
 Provides stdin (console) and stores in into variable **variablename** which can be used later. If variable is not defined earlier, will give error **pölvästi**
@@ -65,7 +65,7 @@ Provides stdin (console) and stores in into variable **variablename** which can 
 
 #  Math functions
 
-## Nulju <numbervariable> <amount>
+## Nulju *numbervariable* *amount*
 *alias: pihi*
  
 Decreases value of the numeral variable *numbervariable* by *amount*. If provided variable is not a numeral, will give error **pölvästi**
@@ -82,7 +82,7 @@ Decreases value of the numeral variable *numbervariable* by *amount*. If provide
 
 # File functions
 
-## Kampraati <filename>
+## Kampraati *filename*
 *alias: kamraari*
     
 Sideloads other PORI-based code script and runs it. Fails in code error and stops all execution.
@@ -93,7 +93,7 @@ Sideloads other PORI-based code script and runs it. Fails in code error and stop
 
 Safely terminates code execution. Automatically run after end of the code.
 
-## Funderaat <seconds>
+## Funderaat *seconds*
 *alias: funteerat*
     
 Pauses code execution for *seconds*
@@ -104,7 +104,7 @@ Terminates code execution with error. Using this command is a bad practice.
 
 # Execution outputs
 
-## Pölvästi <linenumber>
+## Pölvästi *linenumber*
     
 There was a error in the code on line *linenumber* which has stopped the execution. Program cannot continue.
 
